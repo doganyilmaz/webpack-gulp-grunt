@@ -1,0 +1,1 @@
+function name(o){condition}alert(),console.log("d"),console.log("sinan"),console.log("d"),console.log("111111");
