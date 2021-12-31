@@ -25,9 +25,11 @@ module.exports = [{
             extensions: ['.tsx', '.ts', '.js'],
         },
         output: {
+            library: 'ProjeAdi',
             filename: 'test-ts.js',
             path: path.resolve(__dirname, './wwwroot/assets/js'),
         },
+        watch: true
     },
 
     //SASS
@@ -62,9 +64,10 @@ module.exports = [{
             extensions: ['.scss'],
         },
         output: {
-            filename: 'sass-map.css',
+            filename: './../../../dist/sass-map.css',
             path: path.resolve(__dirname, 'wwwroot/assets/css'),
-        }
+        },
+        watch: true
     },
 
     // LESS
@@ -99,9 +102,10 @@ module.exports = [{
             extensions: ['.less'],
         },
         output: {
-            filename: 'less-map.css',
+            filename: './../../../dist/less-map.css',
             path: path.resolve(__dirname, 'wwwroot/assets/css'),
-        }
+        },
+        watch: true
     },
 
 
