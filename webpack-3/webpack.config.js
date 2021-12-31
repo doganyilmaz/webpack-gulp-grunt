@@ -25,7 +25,7 @@ module.exports = [{
             extensions: ['.tsx', '.ts', '.js'],
         },
         output: {
-            library: 'ProjeAdi',
+            library: 'app',
             filename: 'test-ts.js',
             path: path.resolve(__dirname, './wwwroot/assets/js'),
         },
