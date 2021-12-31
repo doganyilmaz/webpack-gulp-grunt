@@ -1,0 +1,1 @@
+(()=>{var o={986:o=>{console.log("666"),o.exports="Merhaba Webpack000"},401:o=>{console.log("333"),o.exports="Merhaba Webpack11"}},e={};function r(s){var l=e[s];if(void 0!==l)return l.exports;var n=e[s]={exports:{}};return o[s](n,n.exports,r),n.exports}(()=>{const o=r(401),e=r(986);console.log(o),console.log(e),console.log("12345")})()})();
